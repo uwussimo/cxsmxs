@@ -1,0 +1,52 @@
+base_url = "https://cxsmxs.space"
+# theme = "zola.386"
+
+default_language = "en"
+title = "CXSMXS"
+description = "A website about a stack made by UwUssimo."
+
+highlight_code = true
+compile_sass = true
+generate_rss = true
+build_search_index = true
+
+taxonomies = [
+  {name="categories", rss=true},
+  {name="tags", rss=true},
+]
+
+
+[extra]
+author = "UwUssimo Robinson"
+year = "2022"
+
+keywords = "zola, theme, retro, hacking"
+theme_color = "#000084"
+zola386_menu = [
+  {path="", name="Home"},
+  {path="categories", name="Categories"},
+  {path="tags", name="Tags"},
+  {path="about", name="About"},
+]
+
+### THIRD PARTY
+# google_analytics = "UA-012345-67"
+# disqus = "disqus-user"
+
+### SOCIAL MEDIA
+image = "https://raw.githubusercontent.com/lopes/zola.386/master/screenshot.png"
+twitter_user = "uwussimo"
+#linkedin_user = "jlopesjr"
+github_user = "uwussimo"
+# gitlab_user = ""
+
+### I18N WORDS
+label_tags = "Tags"
+label_tag = "Tag"
+label_categories = "Categories"
+label_category = "Category"
+label_author = "Author"
+label_date = "Date"
+label_taxonomy = "Taxonomy"
+label_reading = "Reading time"
+label_read_more = "Read more"
