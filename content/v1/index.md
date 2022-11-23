@@ -1,17 +1,17 @@
 +++
-title = "Lorem Ipsum"
-description = "dolor sit amet, consectetur"
-date = 2020-05-01
+title = "CXSMXS V1"
+description = "The first ever version of the CXSMXS stack"
+date = 2022-06-01
 draft = false
-slug = "lorem-ipsum"
+slug = "v1"
 
 [taxonomies]
-categories = ["pellentesque"]
-tags = ["hac", "velit", "risus"]
+categories = ["stack"]
+tags = ["v1", "cxsmxs", "stack"]
 
 [extra]
 comments = true
-lang = "pt"
+lang = "en"
 image = "https://zola386.netlify.app/lorem-ipsum/crt-phosphor-dots.png"
 +++
 
